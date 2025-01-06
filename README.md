@@ -36,7 +36,7 @@ The **Blood Bank Management System** is a web application designed to streamline
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/blood-bank-management-system.git
+    git clone https://github.com/Ayushmahant/blood-bank-management-system.git
     ```
 2. Copy the project folder to the `htdocs` directory in your XAMPP installation:
     ```bash
