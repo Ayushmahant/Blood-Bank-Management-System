@@ -1,9 +1,9 @@
 <?php
-$host = "containers-us-west-123.railway.app";  // from your URL
-$port = "50657";                                // from your URL
-$username = "root";                            // from your URL
-$password = "UJRlQnzkfqEvNeFggHjYEHMhhfnKSeCQ"; // from your URL
-$database = "railway";                         // from your URL
+$host = "hopper.proxy.rlwy.net";
+$port = 50657;
+$username = "root";
+$password = "UJRlQnzkfqEvNeFggHjYEHMhhfnKSeCQ";
+$database = "railway";
 
 $conn = mysqli_connect($host, $username, $password, $database, $port);
 
