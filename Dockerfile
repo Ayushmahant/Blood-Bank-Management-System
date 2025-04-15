@@ -4,6 +4,9 @@ COPY . /var/www/html/
 
 RUN a2enmod rewrite
 
+# ✅ Install mysqli extension
+RUN docker-php-ext-install mysqli
+
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 755 /var/www/html
